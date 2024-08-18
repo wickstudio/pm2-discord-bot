@@ -1,0 +1,26 @@
+{
+  "name": "pm2-discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["PM2", "Discord", "Bot", "Process Management", "Wick Studio"],
+  "author": "Wick Studio",
+  "license": "MIT",
+  "description": "A Discord bot to manage and monitor PM2 processes.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wickstudio/pm2-discord-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wickstudio/pm2-discord-bot/issues"
+  },
+  "homepage": "https://github.com/wickstudio/pm2-discord-bot#readme",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "pm2": "^5.4.2"
+  }
+}
